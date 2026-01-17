@@ -1,0 +1,23 @@
+{
+  "name": "backend-supabase",
+  "version": "1.0.0",
+  "description": "Backend CinematicVerse con Supabase",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node tests/api-tests.js"
+  },
+  "keywords": [
+    "supabase",
+    "backend",
+    "cinematicverse"
+  ],
+  "author": "Erardo Aldana, David Mas, Darío Suárez",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1"
+  }
+}
