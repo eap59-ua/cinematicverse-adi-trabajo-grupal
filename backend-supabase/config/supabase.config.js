@@ -12,6 +12,8 @@ export const supabaseConfig = {
 
 // Validacion de que las variables estan configuradas
 if (!supabaseConfig.url || !supabaseConfig.anonKey) {
-  console.error("❌ Error: Faltan variables de entorno SUPABASE_URL o SUPABASE_ANON_KEY");
+  console.error(
+    "❌ Error: Faltan variables de entorno SUPABASE_URL o SUPABASE_ANON_KEY",
+  );
   console.error("   Crea un archivo .env basandote en .env.example");
 }

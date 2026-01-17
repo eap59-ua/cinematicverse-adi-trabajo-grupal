@@ -19,16 +19,26 @@ export {
 
 // Servicios de Peliculas
 export {
-  getMovies,
-  getMovieById,
   createMovie,
+  searchMovies,
+  getMovieById,
   updateMovie,
   deleteMovie,
-  searchMovies,
+  listAllMovies,
+  listUserMovies,
   getMoviesByGenre,
   getMoviesByYear,
   getTopRatedMovies,
 } from "./services/movies.js";
+
+// Servicios de Usuarios
+export {
+  getUserProfile,
+  getCurrentUserProfile,
+  updateUserProfile,
+  getUserStats,
+  getCurrentUserStats,
+} from "./services/users.js";
 
 // Servicios de Resenas
 export {
