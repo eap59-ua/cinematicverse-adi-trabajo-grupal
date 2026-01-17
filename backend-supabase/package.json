@@ -18,6 +18,7 @@
   "author": "Erardo Aldana, David Mas, Darío Suárez",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.90.1"
+    "@supabase/supabase-js": "^2.90.1",
+    "dotenv": "^16.4.5"
   }
 }
